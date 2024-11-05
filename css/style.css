@@ -5069,7 +5069,7 @@ textarea.form-control {
 
 .ps-banner .ps-banner__content {
   padding: 40px 15px;
-  text-align: center;
+  /* text-align: center; */
   height: 336px;
 }
 
