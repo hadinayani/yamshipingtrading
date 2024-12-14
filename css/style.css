@@ -4121,7 +4121,7 @@ textarea.form-control {
 
 .ps-product--detail .ps-product__info {
   margin-bottom: 80px;
-  margin-top: 30px;
+  margin-top: 3px;
 }
 
 .ps-product--detail.ps-product--full .ps-product__desc li {
@@ -11234,7 +11234,7 @@ textarea.form-control {
 
 @media (min-width: 1280px) {
   .ps-page--product5 .ps-product--detail .ps-product__info {
-    padding: 40px;
+    /* padding: 40px; */
   }
 }
 
