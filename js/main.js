@@ -497,3 +497,15 @@
     });
 })(jQuery);
 
+// Function to update the year automatically
+function updateYear() {
+    const yearElement = document.getElementById("currentYear");
+    const currentYear = new Date().getFullYear(); // Get the current year
+    yearElement.innerHTML = `&copy; ${currentYear} YAM Shipping Trading All Rights Reserved | Developed
+                    By: Hadi Nayani`;
+}
+
+// Call the function after the DOM loads
+document.addEventListener("DOMContentLoaded", updateYear);
+
+
